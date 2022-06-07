@@ -15,7 +15,7 @@
 # for num in evn:
 #     if num%==0:
 #         print(num)
-numbers=[-2,-1,0,1,2,34]
+# numbers=[-2,-1,0,1,2,34]
 # for num in numbers:
 #     if num>15:
 #         print(num + 1)
@@ -28,10 +28,10 @@ numbers=[-2,-1,0,1,2,34]
 #     if num>=14 and num<=18:
 #         count+=1
 # print(count)
-# pos_count=0
-# zr_count=0
-# neg_count=0
-#
+pos_count=0
+zr_count=0
+neg_count=0
+
 # for num in numbers:
 #     if num>0:
 #         pos_count+=1
@@ -41,13 +41,42 @@ numbers=[-2,-1,0,1,2,34]
 #
 #     if num==0:
 #         zr_count+=1
-# print(zr_count)
-# print(pos_count)
-# print(neg_count)
+# print("zero",zr_count)
+# print("+ve",pos_count)
+# print("-ve",neg_count)
 # sum=0
 # for i in numbers:
 #     sum=sum+i
 # print(sum)
+
+
+
+
+# sum of even num
+# # sum=0
+# numb=[11,22,33,44,12,34]
+# elemt=11
+# flag=0
+# for num in numb:
+#     if num%2==0:
+#         sum=sum+num
+# print(sum)
+# for num in numb:
+#     if elemt==num:
+#         flag=1
+#         break
+# print("found" if flag!=0 else "not found")
+# evn=[]
+# for num in numb:
+#     if num%2==0:
+#         evn.append(num)
+#
+# evn.sort()
+# evn.insert(2,23)
+# print(evn)
+
+
+
 
 
 
